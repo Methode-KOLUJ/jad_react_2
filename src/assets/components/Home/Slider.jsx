@@ -23,7 +23,7 @@ const slides = [
     image: '/images/Slider 2.jpeg',
     title: `${t('NewsTitle')}`,
     description: `${t('NewsDesc')}`,
-    link: '/News',
+    link: 'https://www.facebook.com/profile.php?id=100089055482614',
     buttonText:`${t('NewsBtn')}`
   },
   {
