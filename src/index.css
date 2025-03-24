@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body{
+  overflow-x: hidden;
+  user-select: none;
+}
+
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark {
+  background-color: #050505;
+  color: white;
+}
+.dark body{
+  background-color: rgb(173, 0, 0);
+}
