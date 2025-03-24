@@ -17,8 +17,8 @@ import "./Domaines.css";
 const animationVariants = [
   { hidden: { opacity: 0, y: -50 }, visible: { opacity: 1, y: 0 } },
   { hidden: { opacity: 0, y: 50 }, visible: { opacity: 1, y: 0 } },
-  { hidden: { opacity: 0, x: -50 }, visible: { opacity: 1, x: 0 } },
-  { hidden: { opacity: 0, x: 50 }, visible: { opacity: 1, x: 0 } },
+  { hidden: { opacity: 0, x: -20 }, visible: { opacity: 1, x: 0 } },
+  { hidden: { opacity: 0, x: 20 }, visible: { opacity: 1, x: 0 } },
   { hidden: { opacity: 0 }, visible: { opacity: 1 } },
 ];
 
@@ -63,7 +63,7 @@ const Domaines = () => {
         keywords="Domaines, Interventions, Compétences, ONG JAD"
       />
       <motion.h2
-        initial={{ opacity: 0, x: -50 }}
+        initial={{ opacity: 0, x: -20 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 0.6, delay: 0.2 }}
