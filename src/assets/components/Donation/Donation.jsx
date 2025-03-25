@@ -28,8 +28,8 @@ const Donation = () => {
         className="w-full max-w-md bg-white dark:bg-gray-950 shadow-lg rounded-lg border border-gray-400 dark:border-gray-400 p-10 transition-all duration-300 hover:shadow-xl"
       >
         <input type="hidden" name="gatewayMode" value={1} />
-        <input type="hidden" name="publicApiKey" value="MP-LIVEPK-vWV1OenwL7VdrCK76.lmqFW$Q3yM2pV1ayy4hetD6GiKaYP12c$CBuaY7kbnN.SsG7d$p2g0WfZ.U7bDPIIoC2$40GN2RPwCmwUyEAFRJs$Pl$zWX0v/hgrG" />
-        <input type="hidden" name="secretApiKey" value="MP-LIVESK-6l2ig.Rqau7$cbKvA28GJ4BnzF1G4XeDL9Su2eblTTXuqnF0Sy$eOlrX.6Mrj0F2Ikz7Oqasr9t0Fw.J1tFk$7KugcVS$$wj$VMkxQSXt7yRDx0Ovq.Doabj" />
+        <input type="hidden" name="publicApiKey" value="MP-LIVEPK-XTtCScYeBrhZ7xu4Cf7rMZ8R4Yne$N1tsyiIpKl$$7V0AbF$H0ucT6.1VEIZSwyGbdJQv8ePy7vY2Yf5hLt0$hPl3J379MrKjNP7ywdO21HhJn268$CHr1/e" />
+        <input type="hidden" name="secretApiKey" value="MP-LIVESK-8zicT02YyOgTR.3EIrJ$ZTZ.APafq9a$Gy4mKvDgAtCPEo0aUajy26Fls$$shLA0Na211g5s4MQkTibZrJoL$7Gn.mDCDpiQya$RAQupZ/2oXi1o.r8L.zGU" />
         <input type="hidden" name="montant" value={amount} />
         <input type="hidden" name="devise" value="USD" />
         <input type="hidden" name="callbackUrl" value="" />
